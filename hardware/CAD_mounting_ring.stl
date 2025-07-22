@@ -1,0 +1,59 @@
+# CAD_mounting_ring.stl  
+## Mounting Ring CAD — IX-AntiGrav-Forge Core Structural Component
+
+---
+
+### 📌 Description
+
+This file represents the **primary radial mounting ring** used to align and structurally support the critical elements of IX-AntiGrav-Forge, including:
+
+- Toroidal EM spin-loop coils (×2)
+- Ultrasonic phased array transducers (×16+)
+- Magnetic coil shell supports (×2)
+- Sensor and probe mounts (for flux, IR, acoustic, and inertial feedback)
+- Paramagnetic fluid basin interface bracket (optional)
+
+---
+
+### 🧱 Structural Overview
+
+| Parameter | Specification |
+|-----------|---------------|
+| Outer Diameter | 400 mm (scalable to 600 mm+) |
+| Inner Clearance Diameter | 180 mm (central object zone) |
+| Thickness | 8 mm |
+| Mounting Holes | 32 (standard M3 spacing, 11.25° radial offset) |
+| Sensor Slots | 6 cutouts spaced at 60° intervals for IR / Hall / distance sensors |
+| Material Suggestion | PLA, ABS, PETG, or aluminum (if CNC'd) |
+| Frame Fit | Standard with 2020 T-slot modular extrusion systems |
+
+---
+
+### 🔧 Fabrication Notes
+
+- **3D printing:** PLA or PETG recommended for rapid prototyping  
+- **Machining:** Aluminum or Delrin for permanent mounting stability  
+- **Thermal tolerance:** Maintain minimum coil spacing to avoid melt point with toroid fields >50°C
+
+---
+
+### 📐 Usage
+
+Once printed or machined, this ring:
+- Allows perfect angular alignment of opposing toroidal coils
+- Houses transducers equidistantly around central lift cavity
+- Supports vibration-isolated sensor mounts
+- Acts as an interchangeable interface for modular test-bed systems
+
+---
+
+### 📦 File Notes
+
+The actual `.stl` file should be placed in this directory and uploaded using GitHub’s binary asset interface. A rendered `.svg` or `.png` reference may also be added for quick view in non-CAD environments.
+
+---
+
+### ✅ Summary
+
+This mounting ring is a **non-electrical critical infrastructure component** in IX-AntiGrav-Forge — enabling structural alignment, signal symmetry, and optimal field geometry for the multi-force environment that this platform operates in.
+
